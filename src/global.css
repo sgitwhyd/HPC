@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-famili: 'Inter', 'sans-serif';
+	background-color: #f8f9fa;
+}
+
+.width-container {
+	@apply w-[880px] flex;
+}
+
+.card-wrapper {
+	@apply w-full flex justify-between;
+}

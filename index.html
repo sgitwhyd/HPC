@@ -8,6 +8,235 @@
 		<link rel="stylesheet" href="/dist/style.css" />
 	</head>
 	<body>
-		<h1 class="text-3xl font-bold underline">Hello world!</h1>
+		<!-- navbar -->
+		<header class="w-full bg-primary py-[11px] flex justify-center">
+			<nav class="width-container justify-between items-center text-[#F8F9FA]">
+				<div class="nav-brand font-bold text-[40px]">S</div>
+				<div class="nav-links w-[475px]">
+					<ul class="flex justify-between text-xl font-normal">
+						<li>
+							<a href="#home">Home</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
+						</li>
+						<li>
+							<a href="#skill">Skills</a>
+						</li>
+						<li>
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- section home -->
+		<section
+			id="home"
+			class="w-full bg-secondary overflow-hidden h-[400px] flex justify-center"
+		>
+			<div class="width-container">
+				<div class="flex justify-between w-full">
+					<div class="flex flex-col justify-center">
+						<h1
+							class="w-[350px] text-[ #212529] font-bold text-[64px] leading-[77px"
+						>
+							Hello 👋 I’m t-challa
+						</h1>
+						<p class="text-xl text-[#6C757D] leading-6 ]">
+							Freelancer Web Developer
+						</p>
+						<button
+							class="bg-primary w-fit rounded-[10px] px-5 py-[10px] mt-5 text-[#F8F9FA] text-xl font-semibold"
+						>
+							HIRE ME
+						</button>
+					</div>
+					<div class="flex flex-col justify-center relative">
+						<img src="./src/images/eclipse.svg" alt="eclipse" />
+						<img
+							src="./src/images/hero.png"
+							class="w-full z-10 absolute"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section home -->
+
+		<!-- section about -->
+		<section id="about" class="w-full h-[300px] flex justify-center">
+			<div class="width-container">
+				<div class="flex justify-center w-full items-center gap-[81px]">
+					<h2
+						class="text-[64px] text-primary font-semibold leading-[77px] w-[189px]"
+					>
+						About Me
+					</h2>
+					<div class="w-full">
+						<p class="text-primary text-xl leading-6">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+							tristique elit nec malesuada tincidunt. Pellentesque lobortis
+							metus quis ipsum mattis, vitae laoreet est posuere. Mauris
+							bibendum eros massa, sit amet tempor sem lobortis non.
+						</p>
+						<div class="mt-5 w-[250px] flex justify-between">
+							<button
+								class="bg-primary w-fit rounded-[10px] px-5 py-[10px] text-[#F8F9FA] text-xl font-semibold"
+							>
+								HIRE ME
+							</button>
+							<button
+								class="text-primary w-fit rounded-[10px] px-5 py-[10px] border-2 border-primary text-xl font-semibold"
+							>
+								View CV
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section about -->
+
+		<!-- section skills -->
+		<section
+			id="skill"
+			class="w-full h-[550px] flex justify-center items-center bg-secondary"
+		>
+			<div class="width-container items-center flex-col">
+				<h2 class="text-[64px] font-semibold text-primary leading-[77px]">
+					Skills
+				</h2>
+				<p class="text-xl text=[#6C757D] w-[600px] text-center mt-2 mb-11">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+					tristique elit nec malesuada tincidunt. Pellentesque lobortis.
+				</p>
+				<div class="card-wrapper text-[#F8F9FA]">
+					<div
+						class="w-[270px] h-[300px] bg-[#212529] rounded-[10px] flex flex-col items-center justify-center"
+					>
+						<img src="/src/images/web-icon.svg" class="w-9 h-9" alt="" />
+						<h5 class="font-semibold text-2xl my-5">Web Development</h5>
+						<p class="text-base text-center">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+							tristique elit nec
+						</p>
+					</div>
+					<div
+						class="w-[270px] h-[300px] bg-[#212529] rounded-[10px] flex flex-col items-center justify-center"
+					>
+						<img src="/src/images/web-design-icon.svg" class="w-9 h-9" alt="" />
+						<h5 class="font-semibold text-2xl my-5">Web Design</h5>
+						<p class="text-base text-center">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+							tristique elit nec
+						</p>
+					</div>
+					<div
+						class="w-[270px] h-[300px] bg-[#212529] rounded-[10px] flex flex-col items-center justify-center"
+					>
+						<img src="/src/images/app-design-icon.svg" class="w-9 h-9" alt="" />
+						<h5 class="font-semibold text-2xl my-5">App Design</h5>
+						<p class="text-base text-center">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+							tristique elit nec
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section skills -->
+
+		<!-- section contact -->
+		<section
+			id="contact"
+			class="w-full h-[550px] flex justify-center items-center"
+		>
+			<div class="width-container flex-col items-center">
+				<h1 class="text-primary text-[64px] font-semibold">Contact</h1>
+				<div class="flex w-full justify-center gap-5">
+					<div class="w-full flex flex-col">
+						<h5 class="font-bold font-2xl text-primary">Send Me Message</h5>
+						<div class="flex flex-col gap-3 text-[#F8F9FA] mt-5">
+							<div class="flex gap-[10px]">
+								<input
+									type="text"
+									class="bg-primary rounded-[10px] w-full p-2 focus:outline-none placeholder:text-[#F8F9FA] placeholder:text-xl"
+									placeholder="Name"
+								/>
+								<input
+									type="text"
+									class="bg-primary w-full rounded-[10px] p-2 focus:outline-none placeholder:text-[#F8F9FA] placeholder:text-xl"
+									placeholder="Email"
+								/>
+							</div>
+							<textarea
+								class="bg-primary rounded-[10px] p-2 focus:outline-none placeholder:text-[#F8F9FA] placeholder:text-xl"
+								cols="20"
+								rows="5"
+								class="col-span-2"
+								placeholder="Message"
+							></textarea>
+							<a
+								href="#"
+								class="text-end font-semibold text-xl text-primary px-5 py-5"
+								>Send</a
+							>
+						</div>
+					</div>
+					<div class="w-[200px]">
+						<h5 class="font-bold text-2xl text-primary">Sosial Media</h5>
+						<div class="flex flex-col gap-3 mt-5">
+							<div class="flex gap-[10px] w-[180px]">
+								<img src="/src/images/akar-icons_whatsapp-fill.svg" alt="" />
+								<a href="telp:081227951097" class="text-xl font-medium"
+									>081227951097</a
+								>
+							</div>
+							<div class="flex gap-[10px] w-[180px]">
+								<img src="/src/images/akar-icons_instagram-fill.svg" alt="" />
+								<a
+									href="https://www.instagram.com/sigtwhyu/"
+									target="_blank"
+									class="text-xl font-medium"
+									>@sgitwhyd</a
+								>
+							</div>
+							<div class="flex gap-[10px] w-[180px]">
+								<img src="/src/images/akar-icons_facebook-fill.svg" alt="" />
+								<a href="#" class="text-xl font-medium">Sigit Wahyudi</a>
+							</div>
+							<div class="flex gap-[10px] w-[180px]">
+								<img
+									src="/src/images/akar-icons_linkedin-box-fill.svg"
+									alt=""
+								/>
+								<a
+									href="https://www.linkedin.com/in/sigit-wahyudi/"
+									target="_blank"
+									class="text-xl font-medium"
+									>Sigit Wahyudi</a
+								>
+							</div>
+							<div class="flex gap-[10px] w-[180px]">
+								<img src="/src/images/akar-icons_github-fill.svg" alt="" />
+								<a
+									href="https://github.com/sgitwhyd"
+									class="text-xl font-medium"
+									>sgitwhyd</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section contact -->
+
+		<!-- footer -->
+		<footer class="w-full text-center py-5 bg-primary">
+			<h4 class="font-medium text-xl text-secondary">Copyright 2022 ❤</h4>
+		</footer>
 	</body>
 </html>
