@@ -14,7 +14,7 @@ In the project directory, you can run:
 
 1. Open vscode `terminal`
 1. `npm install`
-1. `npx tailwindcss -i./src/global.css -o./dist/style.css --watch`
+1. `npm run build`
 
 ## Generate Local Server
 
